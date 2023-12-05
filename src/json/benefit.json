@@ -1,0 +1,82 @@
+[
+  {
+    "img": "./contents/benefit/bluepafe.jpg",
+    "name": "부르 vurr",
+    "star": 4.8,
+    "category": "컨템포러리",
+    "location": "논현",
+    "benefit": "평일스페셜세트 할인"
+  },
+  {
+    "img": "./contents/benefit/omacase.jpg",
+    "name": "오마카세 오사이초밥",
+    "star": 4.6,
+    "category": "스시오마카세",
+    "location": "건대",
+    "benefit": "평일 런치 3부 추가피스 제공"
+  },
+  {
+    "img": "./contents/benefit/tokkidining.jpg",
+    "name": "토끼다이닝",
+    "star": 4.7,
+    "category": "한식",
+    "location": "합정",
+    "benefit": "하이볼3+1/디저트제공"
+  },
+  {
+    "img": "./contents/benefit/wineandsteak.jpeg",
+    "name": "틈 Wine&Steak",
+    "star": 4.9,
+    "category": "다이닝바",
+    "location": "성수",
+    "benefit": "수제 곶감브라우니 제공"
+  },
+  {
+    "img": "./contents/benefit/dali.jpg",
+    "name": "달리181 상도점",
+    "star": 4.5,
+    "category": "파스타",
+    "location": "상도",
+    "benefit": "웰컴 디쉬 무료 제공"
+  },
+  {
+    "img": "./contents/benefit/litempo.jpg",
+    "name": "오스테리아 일템포",
+    "star": 4.3,
+    "category": "이탈리아음식",
+    "location": "용인",
+    "benefit": "팀 당 콜키지 1병 프리"
+  },
+  {
+    "img": "./contents/benefit/bluepafe.jpg",
+    "name": "블루페이지 라운지",
+    "star": 4.4,
+    "category": "다이닝바",
+    "location": "잠원",
+    "benefit": "콜키지/하이볼 이벤트"
+  },
+  {
+    "img": "./contents/benefit/muu.jpeg",
+    "name": "MUU 한우다이닝",
+    "star": 4.8,
+    "category": "한우오마카세",
+    "location": "논현",
+    "benefit": "기념일 이벤트/콜키지 1병 프리"
+  },
+  {
+    "img": "./contents/benefit/ardere.jpg",
+    "name": "아르데레",
+    "star": 4.1,
+    "category": "브런치",
+    "location": "도산공원",
+    "benefit": "바틀주문시 티라미수 제공"
+  },
+  {
+    "img": "./contents/benefit/woomage.jpg",
+    "name": "우마주 Woomage",
+    "star": 4.9,
+    "category": "한우오마카세",
+    "location": "위례",
+    "benefit": "평일 콜키지 1병 프리/레터링"
+  }
+]

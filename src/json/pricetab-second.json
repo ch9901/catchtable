@@ -1,0 +1,47 @@
+[
+  {
+    "img": "../contents/price/second/lassiette.jpeg",
+    "name": "라씨에트",
+    "des": "제대로 된 프랑스 요리를 즐길 수 있는 캐주얼 레스토랑",
+    "category": "프랑스음식",
+    "location": "서래마을",
+    "star": 4.2,
+    "review": 126
+  },
+  {
+    "img": "../contents/price/second/fuego.jpg",
+    "name": "우미학",
+    "des": "압구정역 근처 정갈한 한식가 숙성 등심 구이를 만날 수 있는 곳",
+    "category": "소고기구이",
+    "location": "압구정",
+    "star": 4.5,
+    "review": 422
+  },
+  {
+    "img": "../contents/price/second/foundlocal.jpg",
+    "name": "파운드로컬",
+    "des": "한식 베이스 요리와 내추럴 와인을 즐길 수 있는 카페 & 와인바",
+    "category": "다이닝바",
+    "location": "신사",
+    "star": 4.7,
+    "review": 149
+  },
+  {
+    "img": "../contents/price/second/gorst.jpg",
+    "name": "비스트로 앤트로",
+    "des": "윤아름 오너셰프의 무국적 음식과 와인을 함께 즐길 수 있는 카페 & 와인바",
+    "category": "컨템포러리",
+    "location": "압구정",
+    "star": 4.5,
+    "review": 482
+  },
+  {
+    "img": "../contents/price/second/filleter.png",
+    "name": "원 디그리 노스",
+    "des": "전통화덕 아시안 바베큐, 시우메이 전문점",
+    "category": "바베큐",
+    "location": "논현",
+    "star": 4.3,
+    "review": 282
+  }
+]

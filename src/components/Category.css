@@ -1,0 +1,26 @@
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0px;
+}
+.category .category-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin-top: 25px;
+}
+.category .category-wrap .category-img {
+  cursor: pointer;
+}
+.category .category-wrap .category-img img {
+  width: 48px;
+  height: 48px;
+}
+.category .category-wrap .category-des {
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  word-break: keep-all;
+}/*# sourceMappingURL=Category.css.map */

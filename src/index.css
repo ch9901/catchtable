@@ -1,0 +1,411 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+/* reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: "Pretendard Variable";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pretendard Variable";
+}
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* same css */
+
+.section-inner {
+  padding: 30px 20px;
+  border-bottom: 10px solid #f9f9f9;
+}
+html #container .category,
+body #container .category {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0px;
+}
+html #container .category .category-wrap,
+body #container .category .category-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin-top: 25px;
+}
+html #container .category .category-wrap .category-img,
+body #container .category .category-wrap .category-img {
+  cursor: pointer;
+}
+html #container .category .category-wrap .category-img img,
+body #container .category .category-wrap .category-img img {
+  width: 48px;
+  height: 48px;
+}
+html #container .category .category-wrap .category-des,
+body #container .category .category-wrap .category-des {
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  word-break: keep-all;
+}
+html #container .section-tit,
+body #container .section-tit {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+}
+html #container .section-des,
+body #container .section-des {
+  color: rgb(98, 98, 98);
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 8px;
+}
+html #container .btn-more,
+body #container .btn-more {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 12px;
+}
+html #container .btn-more::after,
+body #container .btn-more::after {
+  content: "";
+  display: inline-block;
+  background: url(../contents/arrow-right-g.svg) no-repeat;
+  width: 12px;
+  height: 12px;
+}
+html #container .contslide,
+body #container .contslide {
+  margin-top: 20px;
+  overflow-x: scroll;
+}
+html #container .contslide::-webkit-scrollbar,
+body #container .contslide::-webkit-scrollbar {
+  display: none;
+}
+html #container .contslide .slide-cont-wrap,
+body #container .contslide .slide-cont-wrap {
+  width: 2140px;
+}
+html #container .contslide .slide-cont-wrap.theme-wrap,
+body #container .contslide .slide-cont-wrap.theme-wrap {
+  width: 3210px;
+}
+html #container .contslide .slide-cont-wrap .slide-cont,
+body #container .contslide .slide-cont-wrap .slide-cont {
+  display: inline-block;
+  margin-right: 10px;
+}
+html
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-img,
+body
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-img {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+html
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-img
+  img,
+body
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-img
+  img {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+html
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des,
+body
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 5px;
+  width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+html
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des
+  .slide-stardes,
+body
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des
+  .slide-stardes {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #666;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  padding-left: 20px;
+}
+html
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des
+  .slide-stardes
+  b,
+body
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des
+  .slide-stardes
+  b {
+  font-size: 14px;
+  color: #000;
+}
+html
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des
+  .slide-stardes::before,
+body
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des
+  .slide-stardes::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: url(../contents/benefit/star-yellow.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  margin-right: 5px;
+  left: 0;
+}
+html
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des
+  .slide-bookmark,
+body
+  #container
+  .main-section
+  .contslide
+  .slide-cont-wrap
+  .slide-cont
+  .slide-des
+  .slide-bookmark {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: url(../contents/benefit/bookmark.svg) no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+html #container .section-tit,
+body #container .section-tit {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+}
+html #container .section-des,
+body #container .section-des {
+  color: rgb(98, 98, 98);
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 8px;
+}

@@ -1,0 +1,48 @@
+.where-to-go {
+  padding: 20px;
+  .where-to-do-cont-wrap {
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .where-to-go-cont {
+      margin-top: 20px;
+      width: 1050px;
+      .where-to-go-img {
+        cursor: pointer;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 15px;
+        position: relative;
+        .where-to-go-des {
+          z-index: 10;
+          display: block;
+          width: 50px;
+          word-break: keep-all;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 18px;
+          color: #fff;
+          text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+          text-align: center;
+        }
+        img {
+          cursor: pointer;
+          width: inherit;
+          height: inherit;
+          background-size: cover;
+          &.where-to-go-locationimg {
+            filter: brightness(60%);
+          }
+        }
+      }
+    }
+  }
+}

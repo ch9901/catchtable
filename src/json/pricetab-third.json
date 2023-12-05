@@ -1,0 +1,47 @@
+[
+  {
+    "img": "../contents/price/third/rebook.jpeg",
+    "name": "리북방",
+    "des": "미슐랭 플레이트를 받은 이북음식 다이닝, 순대오마카세",
+    "category": "한식",
+    "location": "마포",
+    "star": 4.4,
+    "review": 433
+  },
+  {
+    "img": "../contents/price/third/gripin.jpg",
+    "name": "무슈벤자민",
+    "des": "파리 비스트로 문화에서 영감을 받은 프렌티 비스트로 & 바",
+    "category": "프랑스음식",
+    "location": "역삼",
+    "star": 4.3,
+    "review": 475
+  },
+  {
+    "img": "../contents/price/third/haru.jpg",
+    "name": "스시히노하루",
+    "des": "회기 가성비 좋은 스시오마카세",
+    "category": "스시오마카세",
+    "location": "회기",
+    "star": 4.7,
+    "review": 715
+  },
+  {
+    "img": "../contents/price/third/corso.jpg",
+    "name": "Corso",
+    "des": "제철 쟤료와 프렌치 기법의 만남을 다양한 해석으로 풀어낸 창의적인 레스토랑",
+    "category": "프랑스음식",
+    "location": "한남",
+    "star": 4.1,
+    "review": 442
+  },
+  {
+    "img": "../contents/price/third/bottarga.jpg",
+    "name": "우텐더",
+    "des": "수요미식회 맛집 프리미엄 한우 레스토랑",
+    "category": "소고기구이",
+    "location": "도산공원",
+    "star": 4.3,
+    "review": 130
+  }
+]

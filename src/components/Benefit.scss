@@ -1,0 +1,29 @@
+.benefit {
+  .benefit-header {
+    position: relative;
+  }
+  .contslide {
+    .slide-cont-wrap {
+      .slide-cont {
+        .slide-img {
+          position: relative;
+          .benefit-part {
+            cursor: pointer;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 200px;
+            padding: 8px 0;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            background: rgba(255, 61, 0, 0.85);
+            backdrop-filter: blur(4px);
+          }
+        }
+      }
+    }
+  }
+}
