@@ -6,7 +6,8 @@ import Category from "./Category";
 import WhereToGo from "./WhereToGo";
 import Benefit from "./Benefit";
 import Footer from "./Footer";
-
+import PriceBest from "./PriceBest";
+import Theme from "./Theme";
 const Container = () => {
   return (
     <div id="container">
@@ -15,6 +16,8 @@ const Container = () => {
       <Category />
       <WhereToGo />
       <Benefit />
+      <PriceBest />
+      <Theme />
       <Footer />
     </div>
   );

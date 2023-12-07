@@ -11,7 +11,7 @@ const Benefit = () => {
         <p className="btn-more">전체보기</p>
       </div>
       <div className="contslide">
-        <div className="slide-cont-wrap">
+        <div className="slide-cont-wrap benefit-wrap">
           <BenefitArray />
         </div>
       </div>

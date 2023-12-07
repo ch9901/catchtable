@@ -218,10 +218,7 @@ html #container .contslide::-webkit-scrollbar,
 body #container .contslide::-webkit-scrollbar {
   display: none;
 }
-html #container .contslide .slide-cont-wrap,
-body #container .contslide .slide-cont-wrap {
-  width: 2140px;
-}
+
 html #container .contslide .slide-cont-wrap.theme-wrap,
 body #container .contslide .slide-cont-wrap.theme-wrap {
   width: 3210px;
