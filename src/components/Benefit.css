@@ -32,6 +32,7 @@
 }
 .benefit .contslide .slide-cont-wrap.theme-wrap {
   width: 3210px;
+  border: 1px solid #000;
 }
 .benefit .contslide .slide-cont-wrap.benefit-wrap {
   width: 2310px;

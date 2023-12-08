@@ -3,11 +3,12 @@
 }
 .pricebest .price-select-wrap {
   width: 100%;
+  height: auto;
 }
 .pricebest .price-select-wrap .price-select {
   cursor: pointer;
   border: none;
-  width: 24%;
+  width: 25%;
   padding: 10px;
   background: transparent;
   border-bottom: 2px solid #eee;
@@ -16,11 +17,6 @@
   color: #000;
   font-weight: 600;
   border-bottom: 2px solid #000;
-}
-.pricebest iframe {
-  margin-top: 20px;
-  width: 100%;
-  height: 448px;
 }
 .pricebest .view-more {
   cursor: pointer;
@@ -31,6 +27,7 @@
   font-size: 14px;
   font-weight: bold;
   position: relative;
+  margin-top: 20px;
 }
 .pricebest .view-more::after {
   content: "";

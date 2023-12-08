@@ -1,5 +1,6 @@
 import React from "react";
 import ThemeArray from "./ThemeArray";
+import "./Theme.css";
 
 const Theme = () => {
   return (

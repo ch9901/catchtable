@@ -200,35 +200,35 @@ export const benefitImg = (imgName) => {
 
 export const themeImg = (imgName) => {
   switch (imgName) {
-    case "1":
+    case 1:
       return theme1;
-    case "2":
+    case 2:
       return theme2;
-    case "3":
+    case 3:
       return theme3;
-    case "4":
+    case 4:
       return theme4;
-    case "5":
+    case 5:
       return theme5;
-    case "6":
+    case 6:
       return theme6;
-    case "7":
+    case 7:
       return theme7;
-    case "8":
+    case 8:
       return theme8;
-    case "9":
+    case 9:
       return theme9;
-    case "10":
+    case 10:
       return theme10;
-    case "11":
+    case 11:
       return theme11;
-    case "12":
+    case 12:
       return theme12;
-    case "13":
+    case 13:
       return theme13;
-    case "14":
+    case 14:
       return theme14;
-    case "15":
+    case 15:
       return theme15;
   }
 };

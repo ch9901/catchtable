@@ -29,6 +29,7 @@ const PriceBest = () => {
           10만원이상
         </button>
       </div>
+      <div className="view-more">가격별 레스토랑 전체보기</div>
     </section>
   );
 };
