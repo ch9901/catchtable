@@ -8,6 +8,9 @@ import Benefit from "./Benefit";
 import Footer from "./Footer";
 import PriceBest from "./PriceBest";
 import Theme from "./Theme";
+
+const priceTab = ["3만원이하", "3-5만원", "5-10만원", "10만원이상"];
+
 const Container = () => {
   return (
     <div id="container">
@@ -16,7 +19,7 @@ const Container = () => {
       <Category />
       <WhereToGo />
       <Benefit />
-      <PriceBest />
+      <PriceBest priceTab={priceTab} />
       <Theme />
       <Footer />
     </div>
