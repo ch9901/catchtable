@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Array from "../json/benefit.json";
 import { benefitImg } from "./util";
-import "./Benefit.css";
 
 const newData = Array.map((item) => item);
 const BenefitArray = () => {

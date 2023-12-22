@@ -1,6 +1,6 @@
 import React from "react";
 import { whereimg } from "./util";
-import "./WhereToGo.css"
+
 
 const WhereToGo = () => {
   return (

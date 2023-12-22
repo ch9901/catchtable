@@ -1,5 +1,4 @@
 import React from "react";
-import "./Benefit.css";
 import BenefitArray from "./BenefitArray";
 
 const Benefit = () => {

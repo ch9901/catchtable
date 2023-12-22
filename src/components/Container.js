@@ -19,7 +19,7 @@ const Container = () => {
       <Category />
       <WhereToGo />
       <Benefit />
-      <PriceBest priceTab={priceTab} />
+      <PriceBest />
       <Theme />
       <Footer />
     </div>

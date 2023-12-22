@@ -1,18 +1,10 @@
 import React, { useRef } from "react";
 import { headerImg } from "./util";
-import "./Header.css";
 
 const Header = () => {
   const headerRef = useRef();
   const header = headerRef.current;
   const headerHeight = header?.offsetHeight;
-
-  // window.onscroll = function () {
-  //   let windowTop = window.scrollY;
-  //   windowTop > headerHeight
-  //     ? (header.style.position = "fixed")
-  //     : (header.style.position = "static");
-  // };
 
   return (
     <div>

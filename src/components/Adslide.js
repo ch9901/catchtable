@@ -1,44 +1,49 @@
 import React from "react";
 import { adslideImg } from "./util";
-import "./Adslide.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 const Adslide = () => {
   return (
     <div>
-      <section className="adslide">
-        <ul className="adslide-wrap">
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide1")} alt="slide" />
-          </li>
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide2")} alt="slide" />
-          </li>
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide3")} alt="slide" />
-          </li>
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide4")} alt="slide" />
-          </li>
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide5")} alt="slide" />
-          </li>
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide6")} alt="slide" />
-          </li>
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide7")} alt="slide" />
-          </li>
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide8")} alt="slide" />
-          </li>
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide9")} alt="slide" />
-          </li>
-          <li className="adslide-cont">
-            <img src={adslideImg("adslide10")} alt="slide" />
-          </li>
-        </ul>
-      </section>
+      <Carousel
+        infiniteLoop={true}
+        autoPlay={true}
+        stopOnHover={true}
+        showStatus={false}
+        showThumbs={false}
+      >
+        <div>
+          <img src={adslideImg("adslide1")} />
+        </div>
+        <div>
+          <img src={adslideImg("adslide2")} />
+        </div>
+        <div>
+          <img src={adslideImg("adslide3")} />
+        </div>
+        <div>
+          <img src={adslideImg("adslide4")} />
+        </div>
+        <div>
+          <img src={adslideImg("adslide5")} />
+        </div>
+        <div>
+          <img src={adslideImg("adslide6")} />
+        </div>
+        <div>
+          <img src={adslideImg("adslide7")} />
+        </div>
+        <div>
+          <img src={adslideImg("adslide8")} />
+        </div>
+        <div>
+          <img src={adslideImg("adslide9")} />
+        </div>
+        <div>
+          <img src={adslideImg("adslide10")} />
+        </div>
+      </Carousel>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 [
   {
-    "img": "../contents/benefit/omacase.jpg",
+    "img": "https://toast-images.catchtable.co.kr/aaaaaqx/catchtable/shopinfo/s22047/22047_21102617522773064_thumbMenuImage.jpeg?small200",
     "name": "오마카세 오사이초밥 건대본점",
     "des": "행복한 식사를 즐길 수 있는 오마카세 입문 스시야",
     "category": "스시오마카세",
@@ -9,7 +9,7 @@
     "review": 651
   },
   {
-    "img": "../contents/price/firist/pakin.jpg",
+    "img": "https://toast-images.catchtable.co.kr/aaaaaqx/catchtable/shopinfo/swZvUndvPL0obgl1JVfElzQ/wzvundvpl0obgl1jvfelzq_2212816324350288_thumbMenuImage.jpg?small200",
     "name": "pakin",
     "des": "들마루가 넓은 한남동 내추럴 와인바",
     "category": "다이닝바",
@@ -18,7 +18,7 @@
     "review": 65
   },
   {
-    "img": "../contents/price/firist/ccalmonua.jpeg",
+    "img": "https://toast-images.catchtable.co.kr/aaaaaqx/catchtable/shopinfo/s22129/22129_21102920254761471_thumbMenuImage.jpeg?small200",
     "name": "깔모누아",
     "des": "신선한 제철쟤료들로 재해석한 이탈리안 비스트로",
     "category": "이탈리아음식",
@@ -27,7 +27,7 @@
     "review": 724
   },
   {
-    "img": "../contents/price/firist/umum.jpg",
+    "img": "https://toast-images.catchtable.co.kr/aaaaaqx/catchtable/shopinfo/sH51R3iqf67iNS8oagnjDIA/h51r3iqf67ins8oagnjdia_2311210110251352_thumbMenuImage.jpg?small200",
     "name": "음음",
     "des": "익숙한 아늑함 속에서 즐기는 다이닝과 내추럴 와인",
     "category": "와인",
@@ -36,7 +36,7 @@
     "review": 486
   },
   {
-    "img": "../contents/price/firist/dipin.jpg",
+    "img": "https://ugc-images.catchtable.co.kr/catchtable/shopinfo/sQXzWh6nJqHMDZpQ54vBYCA/329c69db09b54b69988592ed9aae09b4?small200",
     "name": "몽중헌 청담점",
     "des": "홍콩 본토의 맛을 재현한 딤섬이 있는 전통 중식 레스토랑",
     "category": "중식",

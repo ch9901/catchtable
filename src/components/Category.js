@@ -1,6 +1,5 @@
 import React from "react";
 import { categoryImg } from "./util";
-import "./Category.css";
 
 const Category = () => {
   return (
